@@ -17,7 +17,7 @@ Durante mi etapa como **Gerente Técnico**, **lideré el desarrollo de Regulatio
 
 **Regulation System SASISOPA era un producto independiente de HENDU.** Ambos sistemas podían **intercambiar información**, pero no debe interpretarse que SASISOPA fuera solamente un módulo interno de HENDU ni que compartieran necesariamente código o bases de datos.
 
-> **Alcance:** este repositorio documenta mi liderazgo técnico y las funcionalidades presentadas en un folleto comercial histórico. No distribuye el software original, materiales internos ni datos de clientes. Las tecnologías específicas del producto aún no están confirmadas y por ello no se atribuyen aquí.
+> **Alcance:** este repositorio documenta mi liderazgo técnico y las funcionalidades presentadas en un folleto comercial histórico. No distribuye el software original, materiales internos ni datos de clientes. El producto utilizó ASP.NET MVC, C#/.NET, Entity Framework, PostgreSQL con PostGIS y Microsoft Azure, de acuerdo con la confirmación del responsable técnico del proyecto.
 
 ## 🎯 El problema que abordaba
 
@@ -62,6 +62,19 @@ El folleto comercial describe estas capacidades:
 
 El folleto organiza la propuesta en un ciclo de **identificar, planear, monitorear y mejorar**, e incluye temas de riesgos y peligros, medidas de prevención y control, respuesta a emergencias y mejora continua.
 
+## 🛠️ Stack tecnológico
+
+Regulation System SASISOPA fue desarrollado con el mismo stack tecnológico utilizado en HENDU, según confirmación del responsable técnico de ambos productos.
+
+| Capa o ámbito | Tecnología |
+| :--- | :--- |
+| Plataforma de aplicación | **ASP.NET MVC / C# / .NET** |
+| Acceso y persistencia de datos | **Entity Framework** |
+| Base de datos y capacidades geoespaciales | **PostgreSQL con PostGIS** |
+| Infraestructura de despliegue | **Microsoft Azure** |
+
+Compartir tecnologías **no implica** que ambos productos compartieran código fuente, una base de datos o la misma arquitectura interna.
+
 ## 🔗 Producto independiente e interoperabilidad
 
 Como parte de la oferta tecnológica de Plenumsoft Energy & Sustainability, **Regulation System SASISOPA y HENDU podían compartir datos entre sí**.
@@ -84,8 +97,8 @@ Participé como **líder del proyecto y Gerente Técnico**, dirigiendo el desarr
 La fuente comercial de dos páginas, denominada **Regulation System SASISOPA**, incluye funciones, visualizaciones de interfaz y diagramas operativos. Su carácter publicitario **no demuestra por sí mismo el estado de producción, adopción o comercialización** de cada capacidad.
 
 - No se publican métricas de desempeño, ventas o usuarios no verificadas.
-- No se presupone el uso de ASP.NET MVC, Entity Framework, SQL Server o Azure únicamente porque se utilizaran en HENDU.
-- La referencia comercial al proveedor de infraestructura no permite identificar con certeza el despliegue real del producto.
+- El stack tecnológico se documenta por confirmación del responsable técnico, no por inferencia a partir de HENDU.
+- La confirmación de Microsoft Azure como infraestructura no especifica servicios, topología ni configuración del despliegue.
 - La documentación no describe mecanismos técnicos concretos de intercambio de datos.
 
 Ver [contexto del producto, atribución y límites](docs/project-context.md).
