@@ -23,6 +23,30 @@ Durante mi etapa como **Gerente Técnico**, **lideré el desarrollo de Regulatio
 
 La implementación y seguimiento de un sistema de administración de seguridad industrial y protección ambiental requiere coordinar actividades, evidencias, responsables y seguimiento de avances. El producto buscó apoyar estos procesos con una herramienta organizada y accesible a equipos operativos.
 
+## 📸 Evidencia visual histórica
+
+Las siguientes capturas documentan interfaces de **Regulation System SASISOPA** en septiembre de 2019. Se presentan como evidencia visual de funcionalidades de la plataforma, no como una demostración activa ni como confirmación de su disponibilidad actual. Los datos identificables se han anonimizado para su publicación.
+
+### Tablero principal e indicadores
+
+![Regulation System SASISOPA — tablero principal con indicadores y gráfica de actividades](assets/screenshots/sasisopa-2.png)
+
+*Vista de seguimiento con indicadores de actividades programadas y completadas, selección de estación de servicio, rango de fechas y gráfica de actividad.*
+
+### Reporte de actividades
+
+![Regulation System SASISOPA — reporte de actividades y estados de seguimiento](assets/screenshots/sasisopa-1.png)
+
+*Consulta de actividades por estación, con cantidades planificadas, completadas, pendientes y en proceso, además de su clasificación.*
+
+### Registro de actividades
+
+![Regulation System SASISOPA — formulario de registro de actividades](assets/screenshots/sasisopa-3.png)
+
+*Formulario para capturar actividades con título, descripción, sección, categoría, elemento y requerimiento.*
+
+> **Atribución:** capturas históricas de un producto desarrollado en el ámbito de Plenumsoft Energy & Sustainability. Se muestran exclusivamente como documentación de experiencia profesional; la titularidad del software y sus materiales permanece con sus respectivos propietarios.
+
 ## 🧩 Funcionalidades del producto
 
 El folleto comercial describe estas capacidades:
