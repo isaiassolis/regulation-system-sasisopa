@@ -19,11 +19,11 @@ Durante mi etapa como **Gerente Técnico**, **lideré el desarrollo de Regulatio
 
 > **Alcance:** este repositorio documenta mi liderazgo técnico y las funcionalidades presentadas en un folleto comercial histórico. No distribuye el software original, materiales internos ni datos de clientes. El producto utilizó ASP.NET MVC, C#/.NET, Entity Framework, PostgreSQL con PostGIS y Microsoft Azure, de acuerdo con la confirmación del responsable técnico del proyecto.
 
-## 🎯 El problema que abordaba
+## El problema que abordaba
 
 La implementación y seguimiento de un sistema de administración de seguridad industrial y protección ambiental requiere coordinar actividades, evidencias, responsables y seguimiento de avances. El producto buscó apoyar estos procesos con una herramienta organizada y accesible a equipos operativos.
 
-## 📸 Evidencia visual histórica
+## Evidencia visual histórica
 
 Las siguientes capturas documentan interfaces de **Regulation System SASISOPA** en septiembre de 2019. Se presentan como evidencia visual de funcionalidades de la plataforma, no como una demostración activa ni como confirmación de su disponibilidad actual. Los datos identificables se han anonimizado para su publicación.
 
@@ -47,7 +47,7 @@ Las siguientes capturas documentan interfaces de **Regulation System SASISOPA** 
 
 > **Atribución:** capturas históricas de un producto desarrollado en el ámbito de Plenumsoft Energy & Sustainability. Se muestran exclusivamente como documentación de experiencia profesional; la titularidad del software y sus materiales permanece con sus respectivos propietarios.
 
-## 🧩 Funcionalidades del producto
+## Funcionalidades del producto
 
 El folleto comercial describe estas capacidades:
 
@@ -62,9 +62,9 @@ El folleto comercial describe estas capacidades:
 
 El folleto organiza la propuesta en un ciclo de **identificar, planear, monitorear y mejorar**, e incluye temas de riesgos y peligros, medidas de prevención y control, respuesta a emergencias y mejora continua.
 
-## 🛠️ Stack tecnológico
+## Stack tecnológico
 
-Regulation System SASISOPA fue desarrollado con el mismo stack tecnológico utilizado en HENDU, según confirmación del responsable técnico de ambos productos.
+Regulation System SASISOPA fue desarrollado con el mismo stack tecnológico utilizado en HENDU.
 
 | Capa o ámbito | Tecnología |
 | :--- | :--- |
@@ -75,7 +75,7 @@ Regulation System SASISOPA fue desarrollado con el mismo stack tecnológico util
 
 Compartir tecnologías **no implica** que ambos productos compartieran código fuente, una base de datos o la misma arquitectura interna.
 
-## 🔗 Producto independiente e interoperabilidad
+## Producto independiente e interoperabilidad
 
 Como parte de la oferta tecnológica de Plenumsoft Energy & Sustainability, **Regulation System SASISOPA y HENDU podían compartir datos entre sí**.
 
@@ -88,22 +88,17 @@ flowchart LR
 
 *Esquema conceptual. No representa un protocolo, API, integración de bases de datos o arquitectura interna específica.*
 
-## 👤 Mi responsabilidad
+## Mi responsabilidad
 
 Participé como **líder del proyecto y Gerente Técnico**, dirigiendo el desarrollo tecnológico de la solución. Esta experiencia forma parte de mi trayectoria en liderazgo de productos empresariales orientados a procesos especializados de la industria energética.
 
-## 📌 Evidencia y límites
+## Evidencia y límites
 
-La fuente comercial de dos páginas, denominada **Regulation System SASISOPA**, incluye funciones, visualizaciones de interfaz y diagramas operativos. Su carácter publicitario **no demuestra por sí mismo el estado de producción, adopción o comercialización** de cada capacidad.
-
-- No se publican métricas de desempeño, ventas o usuarios no verificadas.
-- El stack tecnológico se documenta por confirmación del responsable técnico, no por inferencia a partir de HENDU.
-- La confirmación de Microsoft Azure como infraestructura no especifica servicios, topología ni configuración del despliegue.
-- La documentación no describe mecanismos técnicos concretos de intercambio de datos.
+**Regulation System SASISOPA**, incluye funciones, visualizaciones de interfaz y diagramas operativos. Su carácter publicitario **no demuestra por sí mismo el estado de producción, adopción o comercialización** de cada capacidad.
 
 Ver [contexto del producto, atribución y límites](docs/project-context.md).
 
-## 🔒 Propiedad intelectual
+## Propiedad intelectual
 
 Regulation System SASISOPA es un producto desarrollado en el ámbito de **Plenumsoft Energy & Sustainability**. Las marcas, el software y materiales originales pertenecen a sus respectivos titulares. Este repositorio es **únicamente un caso de estudio profesional** y no implica que el proyecto o sus servicios sigan activos actualmente.
 
