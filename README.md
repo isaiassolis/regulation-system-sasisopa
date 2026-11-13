@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" width="100%" alt="Regulation System SASISOPA - Regulatory Compliance Management" />
+  <img src="assets/banner.svg" width="100%" alt="Regulation System SASISOPA — Gestión y seguimiento para estaciones de servicio" />
 </p>
 
 <p align="center">
@@ -8,101 +8,98 @@
   <img src="https://img.shields.io/badge/Focus-Compliance%20Management-12395D?style=for-the-badge" alt="Compliance Management" />
 </p>
 
-# Regulation System SASISOPA
+# Regulation System SASISOPA — Gestión y seguimiento para estaciones de servicio
 
-**Plataforma de administración y seguimiento de SASISOPA para estaciones de servicio**  
-**Caso de estudio profesional · Plenumsoft Energy & Sustainability**
+**Dirección tecnológica del proyecto · Plenumsoft Energy & Sustainability**
 
-Durante mi etapa como **Gerente Técnico**, **lideré el desarrollo de Regulation System SASISOPA**. Este producto empresarial se orientaba a apoyar la conformación, implementación y seguimiento del SASISOPA mediante una plataforma para organizar entregables, planificar actividades y monitorear avances.
+Durante mi etapa como **Gerente Técnico en Plenumsoft Energy & Sustainability**, lideré el desarrollo de **Regulation System SASISOPA**, un producto empresarial orientado a organizar y dar seguimiento a actividades, entregables y procesos relacionados con el Sistema de Administración de Seguridad Industrial, Seguridad Operativa y Protección al Medio Ambiente (**SASISOPA**) en estaciones de servicio.
 
-**Regulation System SASISOPA era un producto independiente de HENDU.** Ambos sistemas podían **intercambiar información**, pero no debe interpretarse que SASISOPA fuera solamente un módulo interno de HENDU ni que compartieran necesariamente código o bases de datos.
+Trabajamos en una solución que facilitara la planificación de actividades, el registro de información y la consulta del avance de los trabajos desde una misma plataforma.
 
-> **Alcance:** este repositorio documenta mi liderazgo técnico y las funcionalidades presentadas en un folleto comercial histórico. No distribuye el software original, materiales internos ni datos de clientes. El producto utilizó ASP.NET MVC, C#/.NET, Entity Framework, PostgreSQL con PostGIS y Microsoft Azure, de acuerdo con la confirmación del responsable técnico del proyecto.
+## El desafío
 
-## El problema que abordaba
+La implementación y el seguimiento de SASISOPA requieren coordinar actividades, responsables, documentos, fechas y tareas en distintas estaciones de servicio. Contar con esa información de forma organizada ayuda a identificar pendientes y consultar el estado de las actividades.
 
-La implementación y seguimiento de un sistema de administración de seguridad industrial y protección ambiental requiere coordinar actividades, evidencias, responsables y seguimiento de avances. El producto buscó apoyar estos procesos con una herramienta organizada y accesible a equipos operativos.
+**Nuestro objetivo fue convertir ese seguimiento en un proceso más claro y accesible para los equipos de trabajo.**
 
-## Evidencia visual histórica
+## La solución
 
-Las siguientes capturas documentan interfaces de **Regulation System SASISOPA** en septiembre de 2019. Se presentan como evidencia visual de funcionalidades de la plataforma, no como una demostración activa ni como confirmación de su disponibilidad actual. Los datos identificables se han anonimizado para su publicación.
+Regulation System SASISOPA reunía herramientas de administración y seguimiento para las operaciones de las estaciones de servicio.
 
-### Tablero principal e indicadores
+| Área | Funcionalidad |
+| :--- | :--- |
+| **Actividades** | Registro, configuración y seguimiento de actividades y requerimientos. |
+| **Reportes** | Consulta de actividades planificadas, completadas, pendientes y en proceso. |
+| **Indicadores** | Tableros con datos de avance y seguimiento de actividades. |
+| **Estaciones de servicio** | Organización de información por estación y consulta de su actividad. |
+| **Entregables** | Organización de documentos e información asociada a los procesos de trabajo. |
+| **Planificación** | Apoyo para estructurar tareas y dar seguimiento a su ejecución. |
 
-![Regulation System SASISOPA — tablero principal con indicadores y gráfica de actividades](assets/screenshots/sasisopa-2.png)
+La solución contemplaba además áreas relacionadas con identificación de riesgos y peligros, prevención y control, atención de emergencias y mejora continua.
 
-*Vista de seguimiento con indicadores de actividades programadas y completadas, selección de estación de servicio, rango de fechas y gráfica de actividad.*
+## Capturas de Regulation System SASISOPA
+
+### Tablero e indicadores
+
+![Tablero de Regulation System SASISOPA con indicadores y gráfica de actividades](assets/screenshots/sasisopa-2.png)
+
+*Resumen de actividades, indicadores y filtros por estación y periodo.*
 
 ### Reporte de actividades
 
-![Regulation System SASISOPA — reporte de actividades y estados de seguimiento](assets/screenshots/sasisopa-1.png)
+![Reporte de actividades de Regulation System SASISOPA](assets/screenshots/sasisopa-1.png)
 
-*Consulta de actividades por estación, con cantidades planificadas, completadas, pendientes y en proceso, además de su clasificación.*
+*Consulta del avance de actividades por estación de servicio.*
 
 ### Registro de actividades
 
-![Regulation System SASISOPA — formulario de registro de actividades](assets/screenshots/sasisopa-3.png)
+![Formulario de registro de actividades de Regulation System SASISOPA](assets/screenshots/sasisopa-3.png)
 
-*Formulario para capturar actividades con título, descripción, sección, categoría, elemento y requerimiento.*
+*Registro de tareas con su descripción, categoría y requerimientos.*
 
-> **Atribución:** capturas históricas de un producto desarrollado en el ámbito de Plenumsoft Energy & Sustainability. Se muestran exclusivamente como documentación de experiencia profesional; la titularidad del software y sus materiales permanece con sus respectivos propietarios.
+## Tecnologías
 
-## Funcionalidades del producto
+Desarrollamos el producto con tecnologías de software empresarial y gestión de información geoespacial:
 
-El folleto comercial describe estas capacidades:
-
-| Área | Capacidad presentada |
+| Componente | Tecnología |
 | :--- | :--- |
-| **Entregables** | Administración y consulta organizada de documentos y evidencias |
-| **Actividades** | Configuración y planificación de tareas y requerimientos operativos |
-| **Seguimiento** | Monitoreo de avances, bitácoras y cumplimiento de información requerida |
-| **Estaciones** | Administración geográfica de estaciones de servicio |
-| **Indicadores** | Monitoreo de KPI y seguimiento de actividades |
-| **SASISOPA** | Apoyo a los procesos de conformación e implementación |
+| Aplicación web | **ASP.NET MVC · C# · .NET** |
+| Acceso a datos | **Entity Framework** |
+| Base de datos | **PostgreSQL** |
+| Capacidades geoespaciales | **PostGIS** |
+| Infraestructura | **Microsoft Azure** |
 
-El folleto organiza la propuesta en un ciclo de **identificar, planear, monitorear y mejorar**, e incluye temas de riesgos y peligros, medidas de prevención y control, respuesta a emergencias y mejora continua.
+## Relación con HENDU
 
-## Stack tecnológico
+**Regulation System SASISOPA fue un producto independiente de HENDU.** Aunque estaban orientados a necesidades diferentes, ambos podían intercambiar información.
 
-Regulation System SASISOPA fue desarrollado con el mismo stack tecnológico utilizado en HENDU.
-
-| Capa o ámbito | Tecnología |
-| :--- | :--- |
-| Plataforma de aplicación | **ASP.NET MVC / C# / .NET** |
-| Acceso y persistencia de datos | **Entity Framework** |
-| Base de datos y capacidades geoespaciales | **PostgreSQL con PostGIS** |
-| Infraestructura de despliegue | **Microsoft Azure** |
-
-Compartir tecnologías **no implica** que ambos productos compartieran código fuente, una base de datos o la misma arquitectura interna.
-
-## Producto independiente e interoperabilidad
-
-Como parte de la oferta tecnológica de Plenumsoft Energy & Sustainability, **Regulation System SASISOPA y HENDU podían compartir datos entre sí**.
+- **HENDU** se enfocaba en la administración de información técnica, conocimiento y activos para Oil & Gas.
+- **Regulation System SASISOPA** se enfocaba en la organización y seguimiento de procesos relacionados con SASISOPA en estaciones de servicio.
 
 ```mermaid
 flowchart LR
-    H[HENDU: Información técnica y conocimiento]
-    R[Regulation System SASISOPA: Gestión y seguimiento]
-    H <-->|Intercambio de información| R
+    H[HENDU — Información técnica y conocimiento]
+    S[Regulation System SASISOPA — Gestión y seguimiento]
+    H <-->|Intercambio de información| S
 ```
 
-*Esquema conceptual. No representa un protocolo, API, integración de bases de datos o arquitectura interna específica.*
+[Conocer HENDU](https://github.com/isaiassolis/hendu-enterprise-data-management).
 
-## Mi responsabilidad
+## Mi participación
 
-Participé como **líder del proyecto y Gerente Técnico**, dirigiendo el desarrollo tecnológico de la solución. Esta experiencia forma parte de mi trayectoria en liderazgo de productos empresariales orientados a procesos especializados de la industria energética.
+Como **Gerente Técnico y líder del proyecto**, dirigí el desarrollo tecnológico de Regulation System SASISOPA.
 
-## Evidencia y límites
+Mi trabajo consistió en coordinar la construcción de la solución y orientar su desarrollo hacia las necesidades de seguimiento y administración de procesos de las estaciones de servicio.
 
-**Regulation System SASISOPA**, incluye funciones, visualizaciones de interfaz y diagramas operativos. Su carácter publicitario **no demuestra por sí mismo el estado de producción, adopción o comercialización** de cada capacidad.
+Este producto forma parte de mi experiencia en **liderazgo de proyectos de software empresarial, integración de soluciones y tecnología aplicada a procesos especializados de la industria energética**.
 
-Ver [contexto del producto, atribución y límites](docs/project-context.md).
+## Sobre el proyecto
 
-## Propiedad intelectual
+Regulation System SASISOPA fue desarrollado en **Plenumsoft Energy & Sustainability**. Este repositorio presenta mi participación profesional y las principales funcionalidades del producto, sin incluir su código fuente ni datos de clientes.
 
-Regulation System SASISOPA es un producto desarrollado en el ámbito de **Plenumsoft Energy & Sustainability**. Las marcas, el software y materiales originales pertenecen a sus respectivos titulares. Este repositorio es **únicamente un caso de estudio profesional** y no implica que el proyecto o sus servicios sigan activos actualmente.
+[Más información sobre el proyecto](docs/project-context.md).
 
 ---
 
-<p align="center"><strong>Liderazgo técnico · Software empresarial · Procesos regulatorios · Interoperabilidad</strong></p>
-<p align="center"><a href="https://github.com/isaiassolis">Isaías Solís</a> · Portafolio profesional</p>
+<p align="center"><strong>Gerencia técnica · Desarrollo de software empresarial · Gestión de procesos</strong></p>
+<p align="center"><a href="https://github.com/isaiassolis">Volver a mi portafolio profesional</a></p>
